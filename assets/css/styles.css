@@ -1,6 +1,7 @@
 :root {
     --primary-color: #0A1128;
     --white-color: #ffffff;
+    --light-gray-color: #EEEEEE; 
     --gap: 3rem;
 }
 
@@ -87,6 +88,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .menu h1 {
@@ -104,5 +107,8 @@ a {
 }
 
 .menu ul li a {
-    display: block;    
+    display: block;
+    padding: 2rem;
+    font-size: 1.8rem;
+    color: var(--primary-color);    
 }
